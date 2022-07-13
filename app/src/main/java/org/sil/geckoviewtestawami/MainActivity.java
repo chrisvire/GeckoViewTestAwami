@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         session.open(sRuntime);
         view.setSession(session);
-        session.loadUri("about:buildconfig");
+        session.loadUri("resource://android/assets/AwamiNastaliq-webfont-example.html");
 
     }
 }
